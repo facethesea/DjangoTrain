@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'xiaoqu',
 ]
 
 MIDDLEWARE = [
@@ -75,8 +76,8 @@ WSGI_APPLICATION = 'kechengsheji.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME':'mysql',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME':'xiaoqu',
         'USER':'root',
         'PASSWORD':'rootcly',
         'HOST':'127.0.0.1',
